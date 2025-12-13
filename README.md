@@ -1,4 +1,5 @@
 Student Result Management System
+
 A Python-based GUI application designed for hs student marks calculate(ex: Natra High School (H.S)) to calculate student results, determine grades, and store data automatically in an Excel file.
 
 📋 Project Description
@@ -18,6 +19,7 @@ Grading Logic:
 50% - 59%: 2nd Division
 40% - 49%: 3rd Division
 Below 40%: Fail
+
 Data Persistence: Automatically creates and appends data to result.xlsx.
 Validation: Checks if the percentage exceeds 100% (invalid entry).
 
@@ -42,6 +44,7 @@ python your_script_name.py
 Launch the application.
 
 Enter the Student Name.
+
 Enter the marks obtained in the Subject Numbers fields (Bengali, English, Physics, Mathematics, Chemistry, Biology).
 Click the "Result" button at the bottom.
 A pop-up message will display the summary (Total, Percentage, and Division).
@@ -49,4 +52,5 @@ The data is automatically saved to a file named result.xlsx in the same folder.
 
 📂 File Structure
 main.py (The source code)
+
 result.xlsx (Generated automatically upon first run to store data)
